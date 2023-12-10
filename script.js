@@ -63,5 +63,6 @@ resetBtn.addEventListener("click",()=>{
     winnerMsg.innerText=""
     boxes.forEach((box)=>{
         box.innerText=""
+        box.disabled=false
     })
 })
